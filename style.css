@@ -1,0 +1,118 @@
+html {
+     box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    -webkit-box-sizing: inherit;
+            box-sizing: inherit;
+  }
+  
+  body {
+    margin: 0;
+    font-family: sans-serif;
+    background-image: url(images/1616611383_35-p-tekhnologichnii-fon-42.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+     }
+
+  .container {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border: px solid #1845a2;
+    margin: 50px auto;
+    text-align: center;
+    border-radius: 15px;
+    padding: 1em;
+    box-shadow:5px 5px 15px 5px #000000;
+  }
+  
+  .products {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    
+  }
+  .products__title {
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    text-shadow: 2px 2px 2px rgb(29, 28, 28);
+  }
+  
+  .products__inner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+ 
+  }
+
+  .products__item {
+    background-color: #f7f7f7;
+    width: 50px;
+    margin: 5px;
+    padding: 15px;
+    border-radius: 10px;
+  }
+
+   .div-1 {
+     height: 60px;
+     display: flex;
+     border-bottom: 3px solid rgb(0, 0, 0);
+     justify-content: space-between;
+     align-items: center;
+
+   }
+
+ img {
+    width: 80%;
+    height: 200px;
+    margin-bottom: 25px;
+    object-fit: contain;
+    border-radius: 5px;
+  }
+
+  .products__item-text {
+    font-size: 8px;
+    line-height: 1.2;
+  }
+
+  
+  .name {
+      color: white;
+      font-size: 300%;
+      text-align: center;
+  }
+
+  hr {
+      color: rgb(117, 86, 86);
+      border: 0.25px solid rgb(115, 108, 108);
+      margin-bottom: 35px;
+  }
+
+  .products__filters {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+  }
+
+  button {
+    min-width: 8%;
+    padding: 10px 8px;
+    margin: 20px;
+    border: 2px solid #3924af;
+    border-radius: 8px;
+    font-size: 17px;
+    transition: 0.3s;
+    box-shadow: 2px 4px 2px #000000;
+  }
+  
+  button:hover {
+    background-color: #90bbe2;
+    cursor: pointer;
+    font-weight: 700;
+  }
